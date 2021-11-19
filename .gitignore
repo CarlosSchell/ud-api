@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+
+/a_deprecated
+/notas
+/.git
+
+*.txt
+*.env
+*.pem
+*.key
+*.crt
+
+public.key
+fulchain.pem
+privkey.pem
+my_key.key
+my_cert.crt
+/util/public.key
+
+.prettierrc
+.eslintrc.json
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
